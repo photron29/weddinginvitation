@@ -689,11 +689,12 @@ a {
   color: rgb(255, 185, 212);
   border-radius: 5px;
   transition: 250ms ease-in-out;
+  border: 2px solid transparent;
 
   &:hover {
     color: #874562;
     background-color: rgb(255, 185, 212);
-    border: 2px solid #874562;
+    border-color: #874562;
   }
 }
 
@@ -719,4 +720,19 @@ a {
 .actions a div {
   padding: 12px;
   width: 100%;
+}
+
+.hr {
+  width: 75%;
+  border: 1px solid;
+  color: #874562;
+}
+
+.credits {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
