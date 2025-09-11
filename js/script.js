@@ -6,10 +6,10 @@
   $(".sakura-falling").sakura();
 })(jQuery);
 
-$(document).on("click", function () {
-  document.getElementById("my_audio").play();
-  console.log("Shaadi me zaroor aana");
-});
+// $(document).on("click", function () {
+//   document.getElementById("my_audio").play();
+//   console.log("Shaadi me zaroor aana");
+// });
 
 // Set the date we're counting down to
 var countDownDate = new Date("Nov 27, 2024 00:00:00").getTime();
@@ -83,10 +83,10 @@ var styles2 = [
   "font-size: 32px",
 ].join(";");
 
-console.log("\n\n%c SAVE THE DATE: 27TH Nov, 2024!", styles);
+console.log("\n\n%c SAVE THE DATE: 13TH OCT, 2025!", styles);
 
 console.log(
-  "%cYour presence is requested!%c\n\nRegards: Abhishek Mehra",
+  "%cYour presence is requested!%c\n\nRegards: Vikas Sharma",
   styles1,
   styles2
 );
